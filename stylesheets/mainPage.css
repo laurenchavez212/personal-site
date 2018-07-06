@@ -1,0 +1,72 @@
+body{
+  margin-left: 0px;
+  margin-right: 0px;
+}
+div {
+  height: 400px;
+  padding: 0;
+  margin: 0;
+
+}
+
+.seeThrough {
+  opacity: 80%;
+
+}
+
+.container{
+  position:relative;
+  text-align: center;
+}
+
+.center{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+ .left {
+   float: left;
+ }
+
+ .right {
+   float: right;
+ }
+
+.headline {
+  float: inherit;
+  color: white;
+  font-size: 120px;
+}
+
+.words {
+  color: white;
+
+}
+
+.divCar {
+  background-color: whitesmoke;
+  height: 450px;
+}
+
+#words {
+  color: white;
+  font-family: 'Poiret One', cursive;
+}
+
+.block {
+    background-color: rgb(190,65,159,0.5);
+    width: 45%;
+    margin: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    border-radius: 25px;
+    opacity: .3;
+    height: 80%;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.tucson {
+  font-size: 30px;
+}
